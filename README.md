@@ -7,7 +7,7 @@ Protótipo de uma loja de suplementos, feito para o projeto final da disciplina 
 </h4>    
    
 
-<img  alt="Wallpaper"  src="" width="60%">
+<img  alt="Wallpaper"  src="https://github.com/lrickelme/BoombadoShop/blob/main/BOOMBADO%20SHOP/imagens/Boombado_logo01Black.png?raw=true" width="60%">
 
 
 ### 👨🏻‍💻 Team
