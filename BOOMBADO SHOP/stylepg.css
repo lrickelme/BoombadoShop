@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header img {
+    width: 200px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li + li {
+    margin-left: 24px;
+}
+
+header a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+header a:hover {
+    color: #f13239;
+}
+
+.hero {
+    background-image: url(imagens/suplementos_banner2.jpg);
+    background-size: cover;
+    background-position: center 25%;
+    height: 400px;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero h1 {
+    color:#f13239;
+    font-size: 36px;
+}
+.produto {
+    max-width: 1200px;
+    margin: 64px auto 0;
+    padding: 0 24px;
+}
+
+.produto h2 {
+    margin-bottom: 32px;
+    padding-left: 8px;
+    border-left: 4px solid #f13239;
+}
+
+.produto p {
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: justify;
+}
+.produto div {
+    flex: 0 1 250px;
+}
+.produto img {
+    width: 320;
+    height: 240;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+.produto div button {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: larger;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.rodape {
+    margin: 64px 0 0;
+    padding: 92px 24px 0;
+    background-color: black;
+    color: aliceblue;
+    border-top: 4px solid #f13239;
+}
+
+.rodape .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    border-bottom: 2px solid #f13239;
+
+}
+
+.rodape .container .coluna {
+    flex: 1 1 350px;
+}
+
+.rodape h2 {
+    margin-bottom: 32px;
+    padding-left: 8px;
+    border-left: 4px solid #f13239;
+}
+
+.rodape p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.rodape .container .coluna img {
+    width: 100%;
+}
+
+footer {
+    padding: 64px 24px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
